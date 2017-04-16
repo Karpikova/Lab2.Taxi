@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:include schemaLocation="User.xsd"/>
+	<xs:element name="Driver" type="Driver">
+		<xs:annotation>
+			<xs:documentation>All Drivers</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="Driver">
+		<xs:sequence>
+			<xs:element name="users_pkey" type="User"/>
+			<xs:element name="full_name" type="xs:string"/>
+			<xs:element name="car_number" type="xs:string"/>
+			<xs:element name="car_description" type="xs:string"/>
+			<xs:element name="passport" type="xs:string"/>
+			<xs:element name="birth" type="xs:date"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

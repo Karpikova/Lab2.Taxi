@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<driverList>
+    <driver>
+        <users_pkey>
+            <users_pkey>7</users_pkey>
+            <login>0A. Grigoriev</login>
+            <user_password>37842</user_password>
+            <last_login>1920-12-28+03:00</last_login>
+            <registration_date>1920-12-28+03:00</registration_date>
+        </users_pkey>
+        <full_name>Grigoriev Alexandr Ivanovich</full_name>
+        <car_number>h 548 li</car_number>
+        <car_description>Brutal black Volkswagen</car_description>
+        <passport>2511 546985</passport>
+        <birth>1911-11-21+02:30</birth>
+    </driver>
+    <driver>
+        <users_pkey>
+            <users_pkey>8</users_pkey>
+            <login>Romashka1910</login>
+            <user_password>573210</user_password>
+            <last_login>1920-12-28+03:00</last_login>
+            <registration_date>1920-12-28+03:00</registration_date>
+        </users_pkey>
+        <full_name>Romashov Michail Antonovich</full_name>
+        <car_number>u 333 ll</car_number>
+        <car_description>Pretty nice green toyota</car_description>
+        <passport>2510 125498</passport>
+        <birth>1910-01-05+02:30</birth>
+    </driver>
+</driverList>

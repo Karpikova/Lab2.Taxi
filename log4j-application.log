@@ -1,0 +1,10 @@
+2017-04-15 07:09:19 INFO  Main:31 - test
+2017-04-15 15:21:58 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:21:58 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:21:58 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:22:14 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:22:14 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:22:14 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:22:28 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:22:28 ERROR Main:39 - java.lang.ArithmeticException: / by zero
+2017-04-15 15:22:28 ERROR Main:39 - java.lang.ArithmeticException: / by zero

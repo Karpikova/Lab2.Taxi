@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<userList>
+    <user>
+        <users_pkey>7</users_pkey>
+        <login>0A. Grigoriev</login>
+        <user_password>37842</user_password>
+        <last_login>1920-12-28+03:00</last_login>
+        <registration_date>1920-12-28+03:00</registration_date>
+    </user>
+    <user>
+        <users_pkey>8</users_pkey>
+        <login>Romashka1910</login>
+        <user_password>573210</user_password>
+        <last_login>1920-12-28+03:00</last_login>
+        <registration_date>1920-12-28+03:00</registration_date>
+    </user>
+    <user>
+        <users_pkey>9</users_pkey>
+        <login>Katusha</login>
+        <user_password>959136</user_password>
+        <last_login>1920-12-28+03:00</last_login>
+        <registration_date>1920-12-28+03:00</registration_date>
+    </user>
+</userList>
