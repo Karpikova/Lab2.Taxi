@@ -8,7 +8,7 @@
 	</xs:element>
 	<xs:complexType name="Passenger">
 		<xs:sequence>
-			<xs:element name="users_pkey" type="User"/>
+			<xs:element name="users_pkey_pas" type="User"/>
 			<xs:element name="full_name" type="xs:string"/>
 			<xs:element name="birth" type="xs:date"/>
 		</xs:sequence>

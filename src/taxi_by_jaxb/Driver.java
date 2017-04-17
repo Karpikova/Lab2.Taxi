@@ -38,7 +38,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Driver", propOrder = {
-    "usersPkey",
+    "usersPkey_driver",
     "fullName",
     "carNumber",
     "carDescription",
@@ -48,8 +48,8 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlRootElement
 public class Driver {
 
-    @XmlElement(name = "users_pkey", required = true)
-    protected User usersPkey;
+    @XmlElement(name = "users_pkey_driver", required = true)
+    protected User usersPkey_driver;
     @XmlElement(name = "full_name", required = true)
     protected String fullName;
     @XmlElement(name = "car_number", required = true)
@@ -71,7 +71,7 @@ public class Driver {
      *     
      */
     public User getUsersPkey() {
-        return usersPkey;
+        return usersPkey_driver;
     }
 
     /**
@@ -83,7 +83,7 @@ public class Driver {
      *     
      */
     public void setUsersPkey(User value) {
-        this.usersPkey = value;
+        this.usersPkey_driver = value;
     }
 
     /**

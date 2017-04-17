@@ -35,15 +35,15 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Passenger", propOrder = {
-    "usersPkey",
+    "usersPkey_pas",
     "fullName",
     "birth"
 })
 @XmlRootElement
 public class Passenger {
 
-    @XmlElement(name = "users_pkey", required = true)
-    protected User usersPkey;
+    @XmlElement(name = "users_pkey_pas", required = true)
+    protected User usersPkey_pas;
     @XmlElement(name = "full_name", required = true)
     protected String fullName;
     @XmlElement(required = true)
@@ -59,7 +59,7 @@ public class Passenger {
      *     
      */
     public User getUsersPkey() {
-        return usersPkey;
+        return usersPkey_pas;
     }
 
     /**
@@ -71,7 +71,7 @@ public class Passenger {
      *     
      */
     public void setUsersPkey(User value) {
-        this.usersPkey = value;
+        this.usersPkey_pas = value;
     }
 
     /**

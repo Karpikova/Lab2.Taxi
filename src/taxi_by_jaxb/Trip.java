@@ -22,7 +22,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="trips_id" type="{http://www.w3.org/2001/XMLSchema}long"/>
+ *         &lt;element name="trips_pkey" type="{http://www.w3.org/2001/XMLSchema}long"/>
  *         &lt;element name="driver_pkey" type="{}Driver"/>
  *         &lt;element name="passenger_pkey" type="{}Passenger"/>
  *         &lt;element name="address_from" type="{http://www.w3.org/2001/XMLSchema}string"/>
@@ -43,7 +43,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Trip", propOrder = {
-    "tripsId",
+    "trips_pkey",
     "driverPkey",
     "passengerPkey",
     "addressFrom",
@@ -58,8 +58,8 @@ import javax.xml.datatype.XMLGregorianCalendar;
 @XmlRootElement
 public class Trip {
 
-    @XmlElement(name = "trips_id")
-    protected long tripsId;
+    @XmlElement(name = "trips_pkey")
+    protected long trips_pkey;
     @XmlElement(name = "driver_pkey", required = true)
     protected Driver driverPkey;
     @XmlElement(name = "passenger_pkey", required = true)
@@ -85,16 +85,16 @@ public class Trip {
      * Gets the value of the tripsId property.
      * 
      */
-    public long getTripsId() {
-        return tripsId;
+    public long gettrips_pkey() {
+        return trips_pkey;
     }
 
     /**
      * Sets the value of the tripsId property.
      * 
      */
-    public void setTripsId(long value) {
-        this.tripsId = value;
+    public void settrips_pkey(long value) {
+        this.trips_pkey = value;
     }
 
     /**
